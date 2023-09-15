@@ -5,33 +5,34 @@
     <TargetFrameworks Condition=" '$(OS)' == 'Windows_NT' ">$(TargetFrameworks);uap10.0.18362;netcoreapp3.1;net472;net471</TargetFrameworks>
     <AssemblyName>Xamarin.CommunityToolkit</AssemblyName>
     <RootNamespace>Xamarin.CommunityToolkit</RootNamespace>
-    <PackageId>Xamarin.CommunityToolkit</PackageId>
+    <PackageId>SGFork.Xamarin.CommunityToolkit</PackageId>
     <Summary>Community-created toolkit with common Xamarin converters, effects, behaviors etc.</Summary>
     <PackageTag>xamarin,ios,android,uwp,xamarin.forms,effects,controls,converters,animations,toolkit,kit,communitytoolkit,xamarincommunitytoolkit,watchos,tvos,tizen,Microsoft.Toolkit.Xamarin.Forms</PackageTag>
     <Title>Xamarin.CommunityToolkit</Title>
-    <Description>The Xamarin Community Toolkit is a collection of Animations, Behaviors, Converters, and Effects for mobile development with Xamarin.Forms. It simplifies and demonstrates common developer tasks building iOS, Android, and UWP apps with Xamarin.Forms.</Description>
+    <Description>FORK of the Xamarin Community Toolkit which is a collection of Animations, Behaviors, Converters, and Effects for mobile development with Xamarin.Forms. It simplifies and demonstrates common developer tasks building iOS, Android, and UWP apps with Xamarin.Forms.</Description>
     <PackageIcon>icon.png</PackageIcon>
-    <Product>$(AssemblyName) ($(TargetFramework))</Product>
-    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <Product>SGFork.Xamarin.CommunityToolkit (netstandard1.0)</Product>
+    <AssemblyVersion>2.0.6.1</AssemblyVersion>
     <AssemblyFileVersion>1.0.0.0</AssemblyFileVersion>
-    <Version>1.0.0</Version>
+    <Version>2.0.6.1</Version>
     <PackageVersion>$(Version)$(VersionSuffix)</PackageVersion>
-    <Authors>Microsoft</Authors>
+    <Authors>Microsoft, Synergit</Authors>
     <Owners>microsoft</Owners>
     <NeutralLanguage>en</NeutralLanguage>
     <Copyright>© Microsoft Corporation. All rights reserved.</Copyright>
-    <RepositoryUrl>https://github.com/xamarin/XamarinCommunityToolkit</RepositoryUrl>
-    <PackageReleaseNotes>See: http://aka.ms/xct-release-notes</PackageReleaseNotes>
+    <RepositoryUrl>https://github.com/SynergitCZ/SGFork.XamarinCommunityToolkit</RepositoryUrl>
+    <PackageReleaseNotes>Fixes in CameraView.</PackageReleaseNotes>
     <DefineConstants>$(DefineConstants);</DefineConstants>
     <UseFullSemVerForNuGet>false</UseFullSemVerForNuGet>
     <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-    <PackageProjectUrl>https://github.com/xamarin/XamarinCommunityToolkit</PackageProjectUrl>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageProjectUrl>https://github.com/SynergitCZ/SGFork.XamarinCommunityToolkit</PackageProjectUrl>
     <Configurations>Debug;Release</Configurations>
     <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
     <DebugType>portable</DebugType>
     <NoWarn>NU1701</NoWarn>
+    <Company>Microsoft, Synergit</Company>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)'=='Debug' ">
     <!-- Manage TargetFrameworks for development (Debug Mode) -->
